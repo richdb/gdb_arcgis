@@ -1,0 +1,12 @@
+REGEDIT4
+
+; This Registry Script enters CoClasses Into their appropriate Component Category
+; Use this script during installation of the components
+; 
+; It also lists all coclasses contained within the DLL
+
+
+; CoClass: ArcGIS_GDB.GBI
+; CLSID: {29193244-AE5A-47A5-8302-A2D7CFC30D1A}
+; Component Category: ESRI Mx Commands
+[HKEY_LOCAL_MACHINE\SOFTWARE\Classes\CLSID\{29193244-AE5A-47A5-8302-A2D7CFC30D1A}\Implemented Categories\{B56A7C42-83D4-11D2-A2E9-080009B6F22B}]
